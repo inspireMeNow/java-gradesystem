@@ -10,10 +10,10 @@
       <root url="jar://$PROJECT_DIR$/std/web/WEB-INF/lib/junit-4.13.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/std/web/WEB-INF/lib/kaptcha-2.3.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/std/web/WEB-INF/lib/standard.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../Server/apache-tomcat-8/lib" />
+      <root url="file://$USER_HOME$/Server/tomcat-8/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="file://$PROJECT_DIR$/../../../Server/apache-tomcat-8/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Server/tomcat-8/lib" recursive="false" />
   </library>
 </component>
