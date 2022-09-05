@@ -2,6 +2,7 @@ package StudentGrade.utils;
 
 import java.io.InputStream;
 import java.sql.*;
+import java.util.Base64;
 import java.util.Properties;
 
 //JDBC工具类
@@ -27,6 +28,8 @@ public  class JDBCUtils {
             url=prop.getProperty("url");
             username=prop.getProperty("username");
             password=prop.getProperty("password");
+            byte[] decodedByte = Base64.getDecoder().decode(password);
+            password=new String(decodedByte);
             //注册驱动
             //Class.forName(driverClass);
         } catch (Exception e) {

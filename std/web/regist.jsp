@@ -67,12 +67,17 @@
         <div id="chkMsg" style="font-size:12px;"></div>
       </div>
       <div class="body-content-list">
-        <span class="input-name">电子邮件:</span>
+        <span class="input-name">电子邮箱:</span>
         <input type="text" class="input-style" id="email" name="email" value="${requestScope.email}" placeholder="请填写电子邮箱地址" onchange="checkEmail()" onkeyup="value=value.replace(/[^\w\@\_\.]/ig,'')"/>
         <div id="chkEmail" style="font-size:12px;"></div>
       </div>
+      <div class="body-content-list">
+        <span class="input-name">邮箱验证</span>
+        <input type="text" class="input-style" id="confirmid" name="confirmid" value="${requestScope.email}" placeholder="请输入邮箱验证码" onchange="checkEmail()" onkeyup="value=value.replace(/[^\w\@\_\.]/ig,'')"/>
+        <div id="confirmEmail" style="font-size:12px;"></div>
+      </div>
       <div class="body-content-list2">
-        <span class="input-name">输验证码:</span>
+        <span class="input-name">人机验证:</span>
         <input type="text" class="input-style" id="ranstring" name="ranstring" value="" placeholder="请输入验证码" />
         <div class="last-info">
 							<span id="randomPhoto"><img src="kaptcha.jpg" height="48" width="120" style="border: 1px solid #666" id="imgRandom"></span>
