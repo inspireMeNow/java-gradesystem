@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="std" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="file-copy" path="$PROJECT_DIR$/std/web/WEB-INF/lib/mssql-jdbc-10.2.0.jre17.jar" />
+          <element id="library" level="project" name="commons-beanutils-1.9.4" />
+        </element>
       </element>
     </root>
   </artifact>
