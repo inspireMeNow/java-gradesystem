@@ -26,8 +26,8 @@ jobs:
         run: |
           mkdir -p ./artifact/artifacts
           mkdir -p ./artifact/production
-          cp -rf $(find ./out/artifacts/ -type f) ./artifact/artifacts/
-          cp -rf $(find ./out/production/ -type f) ./artifact/production/
+          cp -rf $(find ../out/artifacts/std_war_exploded -type f) ./artifact/artifacts/
+          cp -rf $(find ../out/production/ -type f) ./artifact/production/
       - name: Deliver artifact
         uses: actions/upload-artifact@v2
         with:
