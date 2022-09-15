@@ -1,0 +1,7 @@
+{
+  "name": "std",
+  "version": "1.0.0",
+  "dependencies": {
+    "mailgun-js": "^0.22.0"
+  }
+}

@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 12px;
+	color: #000;
+	margin: 0px;
+    font-family:Arial,Tahoma, Helvetica ;
+}
+tr,td,div,p,li,ul,span,font{
+font-family:Arial,Tahoma, Helvetica ;
+}
+input,button,select,textarea,from {
+	font-size: 14px;
+    font-family:Arial,Tahoma, Helvetica ;
+}
+table{border-collapse: collapse;}
+
+a {font-size: 12px;color: #104FEE;TEXT-DECORATION: none}
+a:link {font-size: 12px;color: #104FEE;TEXT-DECORATION: none}
+a:visited {font-size: 12px;color: #104FEE;TEXT-DECORATION: none}
+a:hover {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+a:active {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+
+a.href1:link {font-size: 12px;color: #ffffff;TEXT-DECORATION: none}
+a.href1:visited {font-size: 12px;color: #ffffff;TEXT-DECORATION: none}
+a.href1:hover {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+a.href1:active {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+
+a.href2:link {font-size: 12px;color: #D9F9F5;TEXT-DECORATION: none;font-weight:bold}
+a.href2:visited {font-size: 12px;color: #D9F9F5;TEXT-DECORATION: none;font-weight:bold}
+a.href2:hover {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+a.href2:active {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+ul{list-style:none;}
+form {
+	margin: 0px;
+}
+input{outline:none;}
+select{outline:none;}
+/*jquery-validation错误样式*/
+.error{width: 200px; color:#ff0000; text-align:left;}
+
+.f18{font-size: 18px!important;}
+.f16{font-size: 16px!important;}
+.cr{color: #ec2c06!important;}
+
+/*弹窗样式window*/
+.clearfix:after{height: 0; content: ""; display: block; clear: both; visibility: hidden;}
+.fl{float: left!important;}
+.fr{float: right!important;}
+.clearfix{zoom: 1;}
+.r_content{margin-left: 160px; }
+.main_content{ width: 100%; }
+.fw{font-weight: bold;}
+.main_content{font-size: 13px;}
+.main_content .l_nav{background: #fafafa; width: 160px; padding: 0px 0px 0px 10px; box-sizing: border-box;  float: left;}
+.l_nav ul{margin: 0px; padding-top: 29px; box-sizing: border-box; height: 100%; width: 100%; border-right: solid 1px #ccc; padding-left: 0px; float: left; list-style: none;}
+.l_nav ul li{margin-bottom: 10px; width: 100%;  box-sizing: border-box; font-size: 13px; background: #fafafa; border-radius: 21px 0 0 21px; height: 42px; line-height: 42px;}
+.l_nav ul li:hover{color: #fff; background: #f26b3b; }
+.l_nav ul li:hover a{color: #fff; text-decoration: none;}
+.l_nav ul .active{color: #fff; background: #f26b3b; }
+.l_nav ul li .active2{color: #fff; text-decoration: none; border: none;}
+.l_nav ul li a{font-size: 13px; width: 100%; display: inline-block; color: #282828;  border-bottom: 1px solid #ccc; text-align: center;}
+.t_header{height: 50px; background: #f0f0f0; width: 100%; padding: 6px 20px; box-sizing: border-box;}
+.t_header .btn-group{float: left;}
+.t_header .search-box{float: right; height: 34px; overflow: hidden;}
+.search-box input{height: 30px; border: 1px solid #d8d3d4; width: 300px; float: right; border-right: none; border-radius: 5px 0px 0px 5px; text-indent: 1em;}
+.b_content{padding: 10px 20px 0px; border-top: 1px solid #ccc; box-sizing: border-box; background: #fbfbfb;}
+.instruction-div{line-height: 24px; float: left; width: 100%; border-left: 4px solid #f5d179; padding: 10px 10px; box-sizing: border-box; background: #f9f8e7; color: #7a7a7a; font-size: 13px;}
+.instruction-div a{color: #104FEE; font-weight: bold;}
+.instruction-div .cblue{color: #1245ed!important;}
+.instruction-div .right{float: left;}
+.instruction-div .right table td{padding-bottom: 10px;}
+.instruction-div .left{width: 100px; float: left;}
+.instruction-div .left p{font-size: 24px; color: #000; margin: 0px;}
+.student-info{width: 100%; float: left;}
+.student-info p{font-size: 15px; color: #000; font-weight: bold; margin-top: 10px; float: left; width: 100%;}
+.student-info p span{margin-right: 20px;}
+.main-table{margin-bottom: 10px; width: 100%; background: #fff; margin-top: 20px; float: left; border:1px solid #ecebeb}
+.main-table td,.main-table th{padding: 12px 0px;}
+.main-table tr:hover{background: #f9f7f7;}
+.main-table td{padding-left: 27px; text-align: left; font-size: 13px; color: #181818; border: 1px solid #ecebeb;}
+.main-table th{font-weight: normal; text-align: center; font-size: 13px; color: #3b3a3a; width: 160px; background: #faf9ec; border: 1px solid #f5d179;}
+.main-table input{font-size: 13px;}
+.main-table input[type="text"]{width: 30%; height: 25px;}
+.main-table select{width: 30%; height: 30px;}
+.main-table textarea{width: 80%;}
+.main-table .cgary{color: #6f6d6d!important;}
+.main-table span{margin-right: 20px;}
+.main-table .cgreen{color: #0ea33f!important; font-size: 12px;}
+.checkBox{width: 24px; height: 21px; position: relative; top: 5px; right: 0px;}
+.main-table .cred{color: #f2381a!important;}
+.main-table .submit{min-width: 80px; background: #d0d0d0; text-align: center; height: 35px; padding: 0px 10px; box-sizing: border-box; border:none; border-radius: 2px; line-height: 35px; color: #000; font-size: 16px; cursor: pointer;}
+.main-table .submit:hover{min-width: 80px; background: #000; text-align: center; height: 35px; padding: 0px 10px; box-sizing: border-box; border:none; border-radius: 2px; line-height: 35px; color: #fff; font-size: 16px; cursor: pointer;}
+.tb_cont{width: 100%; float: left;}
+/*登陆页*/
+.bg-box{background: url(../../images/usersys/bg/bg_06.jpg) ; width: 100%; height: 100%; position: fixed; background-size: 100% 100%;}
+.main-box{width: 1000px; margin: 0px auto;}
+.header-box{background: #0c0d1f; width: 100%; height: 32px; line-height: 32px; font-size: 12px; color: #fff; font-family: Arial,Tahoma, Helvetica;}
+.header-box .left-box{float: left; background: url(../../images/usersys/icon/login_icon_01.png) no-repeat; width: 120px; height: 100%; text-indent: 22px; background-position: 0 9px;}
+*+html .header-box .left-box{background-position: 0 7px;}
+.header-box .left-box a{color: #828387;}
+.header-box .left-box a:hover{text-decoration: none; color: #fff;}
+.header-box .right-box{float: right; list-style: none; margin: 0px;}
+.header-box .right-box li{float: right; height: 14px; overflow: hidden; line-height: 14px; margin-top: 9px; border-right: 1px solid #828387;padding-right: 10px; margin-left: 10px;}
+.header-box .right-box li a{color: #828387;}
+.header-box .right-box li a:hover{text-decoration: none; color: #fff;}
+.login-box{margin-top: 100px;}
+.login-box .img-box{float: left; width: 454px; height: 174px; margin-top: 120px;}
+.login-box .login-form{float: right;padding: 15px; box-sizing: border-box; background: #fff; color: #343434;}
+.login-form h4{font-size: 20px; text-align: center; margin: 10px 0px 20px;}
+.login-form .input-box-1{width: 100%; height: 38px; line-height: 38px; [;line-height: 1px;]font-size: 14px; padding-left: 10px; background: url(../../images/usersys/icon/login_icon_02.png ) no-repeat 270px; border: 1px solid #bcbcbc; border-radius: 5px; box-sizing: border-box;}
+*+html .login-form .input-box-1,*+html .login-form .input-box-2,*+html .login-form .input-box-3{padding-left:0;line-height: 38px;}
+.login-form .input-box-2{width: 100%; height: 38px; height: 38px; line-height: 38px; [;line-height: 1px;] font-size: 14px; padding-left: 10px; background: url(../../images/usersys/icon/login_icon_03.png ) no-repeat 270px; border: 1px solid #bcbcbc; border-radius: 5px; box-sizing: border-box;}
+.login-form .input-box-3{width: 150px; height: 38px; height: 38px; line-height: 38px; [;line-height: 1px;] font-size: 14px; padding-left: 10px; border: 1px solid #bcbcbc; border-radius: 5px; box-sizing: border-box;}
+.mb25px{margin-bottom: 25px; }
+.mb20px{margin-bottom: 20px;}
+.login-form .login-btn{width: 100%; height: 38px; line-height: 38px; font-size: 20px; text-align: center; background: #1658df; border: 1px solid #1658df; border-radius: 5px; color: #fff; cursor: pointer;}
+.login-form .btm-box{font-size: 13px;}
+.login-form .find-pwd-box{float: right; background: url(../../images/usersys/icon/login_icon_04.png) no-repeat 2px 1px; text-indent: 18px; height: 16px; line-height: 16px;}
+.login-form .login-help{float: left; background: url(../../images/usersys/icon/login_icon_05.png) no-repeat 0 1px; text-indent: 18px; height: 16px; line-height: 16px;}
+*+html .login-form .login-help{background: url(../../images/usersys/icon/login_icon_05.png) no-repeat 0 0px;}
+*+html .find-pwd-box{ background: url(../../images/usersys/icon/login_icon_04.png) no-repeat 2px 0px}
+.login-form .find-pwd-box a{color: #e01111;}
+.left-bar{height: 0px; display: inline-block; border-top: 1px solid #706e6e; width: 47px; margin: 0px 5px 3px;}
+.bar-box{float: left; color: #747070;}
+.regist-btn-login{width: 99px; border: none; height: 30px; text-align: center; color: #402a04; line-height: 30px; float: left; border-radius: 5px; background: #ffb63c; margin-top: -7px; cursor: pointer; font-size: 14px;}
+.bg-box .footer-box{position: absolute; right: 40px; bottom: 40px; color: #e2e2e2; font-size: 15px;}
+.bg-box .footer-box p{height: 32px; line-height: 32px;}
+.bg-box .footer-box p span{margin-right: 10px;}
+.bg-box .footer-box p .upload-pic-btn{line-height: 32px; height: 100%; color: #fff; border: none; border-radius: 5px; width: 140px; text-align: center; cursor: pointer; background: #104fee}
+.bg-box .footer-box p .upload-pic-icon{width: 19px; height: 19px; display: inline-block; background: url(../../images/usersys/icon/login_icon_06.png) no-repeat; position: relative; top: 4px; right: 4px;}
+*+html .bg-box .footer-box p .upload-pic-icon{top: 1px; right: 6px;}
+
+/*学生学籍信息*/
+.maker-button{margin: 20px 0px; width: 100%; float: left;}
+.maker-button button{margin-right: 10px; background: #d0d0d0; text-align: center; height: 35px; padding: 0px 10px; box-sizing: border-box; border:none; border-radius: 2px; line-height: 35px; color: #000; font-size: 16px; cursor: pointer;}
+.maker-button button:hover{text-align: center;background: #000;  height: 35px; padding: 0px 10px; box-sizing: border-box; border:none; border-radius: 2px; line-height: 35px; color: #fff; font-size: 16px; cursor: pointer;}
+.hidden{display: none;}
+
+/*学生信息修改*/
+.important{color: red !important;}
+.pwd-instruction-box{margin: 20px 0px; float: left;}
+.main-table a{color: #0000CC;}
+.tb-table tbody td{text-align: center; padding-left: 0;}
+
+/*课程警告*/
+.pageStyle{margin-right: 3px; cursor: pointer; height: 30px; line-height: 30px; padding: 0 15px; text-align: center; border: none; background: #31b9e6; color: #fff !important; font-size: 12px !important; font-weight: bold; border-radius: 3px; display: inline-block;}
+.pageStyle:hover{background: #1facda;}
+
+/*查看周课*/
+.week-tb{margin-bottom: 20px;}
+.week-tb th p{margin: 0px;}
+/*下学期选课*/
+.next-class-p {margin: 20px 0; font-weight: bold; font-size: 16px;}
+.next-class-p .backBtn{color: #104FEE!important; font-size: 16px !important; text-decoration: underline!important;}
+/*以往成绩*/
+.before-tb td p{margin: 0px;}
+/*培养计划显示*/
+.xuanxiu{color: #0EA33F !important; text-decoration: underline!important;}
+.xuanxiu-div{font-size: 18px; font-weight: bold; margin-top: 40px; float: left; width: 100%; margin-bottom: 0px;}
+.pass{color: #0EA33F !important;}
+
+/*专用成绩单*/
+.print-h{font-size: 16px;}
+.print-h a{font-size: 16px; text-decoration: underline;}
+
+/*毕业要求*/
+.student-info select{height: 30px; line-height: 30px;}
+
+/*学分绩点*/
+.input-style{min-height: 25px; min-width: 15%; padding-left: 5px;}
+.input-style-2{min-width: 50%;}
+.gerrnStyle{color: #0EA33F !important;}
+
+/*提交选题*/
+.fenye{margin: 20px 0; text-align: right; padding-right: 2em; box-sizing: border-box; width: 100%; float: left;}
+
+.mt10{margin-top: 10px !important;}
+.text-right{text-align: right !important; padding-right: 2em !important; box-sizing: border-box;}
+.text-left{text-align: left !important; padding-left: 2em !important; box-sizing: border-box;}
+.pl3{padding-left: 3em!important; box-sizing: border-box;}
+
+.instruction-div table td{padding: 0px 5px; box-sizing: border-box; text-align: center;}
+.instruction-div table{width: 80%;}
+
+/*竞赛部分*/
+.old-upload{display: inline-block; width: 100%;  height: 100%; position: absolute; left: 0px; top: 0px; opacity: 0; cursor: pointer;}
+.upload-btn{display: block; width: 100%; font-size: 15px; line-height: 30px; background: #03acc0; text-align: center;  height: 100%; color: #fff; border: none; border-radius: 5px; z-index: 2;cursor: pointer;}
+.upload-div{display: inline-block; width: 140px; height: 30px; position: relative; cursor: pointer; z-index: 6;}
+.pageStyle-big{height: 40px; line-height: 40px; font-size: 15px!important; background: #009B76;}
+.pageStyle-big:hover{background: #0EA33F;}
+
+/*培养计划*/
+.trainingPlan-div{float: left; width: 100%; margin-top: 10px;}
+.trainingPlan-div h5{margin: 10px 0px; font-size: 16px;}
+
+/*推荐资源*/
+.opera-name{display: inline-block; width: 100px;}
+
+/*注册页*/
+.regist-box{width: 1000px; margin: 0 auto;}
+.regist-header{width: 100%; height: 32px; line-height: 32px; background: #444444; }
+.regist-header a{color: #a0a0a0;}
+.home-icon{position: relative; top: 2px; right: 1px;}
+.header-op{display: inline-block;padding: 0px 10px; border-right: 1px solid #969696; height: 14px; line-height: 14px; overflow: hidden; position: relative; top: 2px;}
+.header-op:last-child{border-right:none; padding-right: 0;}
+.regist-title{height: 84px; line-height: 84px; color: #4f4f4f; font-size: 32px;}
+.login-a{color: #3b3b3b !important; font-size: 20px!important;}
+.regist-title-right{font-size: 20px; color: #9b9999;}
+.regist-body{padding: 25px 50px; box-sizing: border-box; box-shadow: 0 2px 5px #ccc; background: #fff;}
+.regist-body-content{background: #fcfdff; border: 1px solid #dfeaff; padding: 30px 0px 30px 140px; box-sizing: border-box; font-size: 15px; color: #353232;}
+.regist-body-header{background: #f3fff1; margin-bottom: 25px; padding: 20px 30px ; box-sizing: border-box; border: 1px solid #cceac7; color: #797878; font-size: 13px;}
+.body-header-title{font-size: 20px; color: #343434; width: 65px; padding-right: 30px; border-right: 1px solid #ccc;}
+.body-header-info{width: 710px; line-height: 24px;}
+.body-content-list{height: 48px; border: 1px solid #dddddd; width: 590px; position: relative; margin-bottom: 20px;}
+.body-content-list2{height: 48px; border: 1px solid #dddddd; width: 300px; position: relative; margin-bottom: 20px; background: #fff;}
+.input-name{height: 100%; line-height: 48px; width: 100px; text-align: center; display: block; position: absolute; left: 0; top: 0; text-align: center; z-index: 99;}
+*+html .input-name{top: 1px; left: 0;}
+.input-style{width: 100%; height: 48px; line-height: 48px; border: none; padding-left: 110px; box-sizing: border-box; font-size: 15px; padding-right: 10px; [;line-height: 1px;];}
+.input-style2{width: 100%; height: 48px; line-height: 48px; border: none; box-sizing: border-box; font-size: 15px; padding: 14px 0\0; padding-left: 110px; padding-right: 10px;[; line-height: 42px; margin-left: 110px; width: 180px;]}
+*+html .input-style{padding-left: 0; text-indent: 110px; position: relative; top: -2px; left: -1px; line-height: 48px;}
+*+html .input-style2{padding-left: 0; text-indent: 110px; position: relative; top: -2px; left: -1px; margin-top: 15px; margin-left: 110px; width: 180px; line-height: 48px;}
+.last-info{width: 250px; position: absolute; right: -260px; top: 0px; height: 48px; line-height: 48px;}
+*+html .last-info{right: -270px;}
+.regist-btn-box{width: 590px; height: 48px;}
+.regist-btn{border: none;  border-radius:5px; color: #fff; font-size: 24px; text-align: center; background: #1658df; width: 100%; display: block; height: 100%; margin: 10px 0;}
+.regist-btn:hover{background: #2a66e1;}
+.regist-footer{text-align: center;margin: 50px 0;font-size: 14px;color: #888888;font-family: Arial,Tahoma, Helvetica;}
+.header-style-none{padding-right: 0!important; border-right: none;}
+.regist-user-icon{background: url(../../images/usersys/icon/regist_user.png) no-repeat; width: 40px; height: 40px; display: inline-block; position: relative; right: 0px; top: 22px; }
+*+html .regist-user-icon{top: 20px;}
+:root .regist-user-icon{top: 20px\9;}
+
+/*找回密码*/
+.forget-box{padding: 50px 0 100px 140px; }
+.forget-box .cue{margin-top: 20px; font-size: 14px;}
+.forget-box .cg{color: #0ebc99; font-size: 14px;}
+.forget-psd-icon{background: url(../../images/usersys/icon/forget_psd_icon.png) no-repeat; width: 40px; height: 41px; display: inline-block; position: relative; right: 0px; top: 22px;}
+*+html .forget-psd-icon{top: 0px; right: 0; margin-right: 5px;}
+
+
+/*浏览器检测界面*/
+.main-box2{width: 1160px; margin: 0px auto;}
+.check-box{background:#fff; width:100%; height:530px; padding-top:40px; margin-top:100px; text-align:center;position:relative;overflow: hidden;}
+.mt20{margin-top:20px}
+.check-footer{height:92px;background:#d8e8f5; margin-top:42px;}
+.check-ul{padding:0;}
+.check-ul li p{margin: 0; margin-bottom:5px; text-align:left; color:#676767;}
+*+html .check-footer{margin-top:39px;}
+.check-ul li{display: inline-block; *display: block; *display: inline; margin-right:30px; text-align:center; margin-top:30px;}
+.check-ul li a{font-size:14px;color:#676767;}
+.check-ul li img{vertical-align:baseline;}
+.check-ul li img{float:left;margin-right:5px;}
+.check-ul li div{float:left;}

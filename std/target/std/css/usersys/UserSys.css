@@ -1,0 +1,886 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 12px;
+	color: #000;
+	margin: 0px;
+    font-family:Arial,Tahoma, Helvetica ;
+}
+tr,td,div,p,li,ul,span,font{
+font-family:Arial,Tahoma, Helvetica ;
+}
+a {font-size: 12px;color: #333B6D;TEXT-DECORATION: none}
+a:link {font-size: 12px;color: #333B6D;TEXT-DECORATION: none}
+a:visited {font-size: 12px;color: #333B6D;TEXT-DECORATION: none}
+a:hover {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+a:active {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+
+a.href1:link {font-size: 12px;color: #ffffff;TEXT-DECORATION: none}
+a.href1:visited {font-size: 12px;color: #ffffff;TEXT-DECORATION: none}
+a.href1:hover {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+a.href1:active {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+
+a.href2:link {font-size: 12px;color: #D9F9F5;TEXT-DECORATION: none;font-weight:bold}
+a.href2:visited {font-size: 12px;color: #D9F9F5;TEXT-DECORATION: none;font-weight:bold}
+a.href2:hover {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+a.href2:active {font-size: 12px;color: #F00;TEXT-DECORATION: underline}
+
+form {
+	margin: 0px;
+}
+
+#pageMain {
+	width: 100%;
+}
+#pageBody {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+#pageBody #pageBodyLeft {
+	/*background-image: url(../images/usersys/dock3.png);*/
+	background-repeat: no-repeat;
+	height: 546px;
+	width: 73px;
+	position: absolute;
+	left: 0px;
+}
+#pageBody #pageBodyLeft #pageBodyLeftTop {
+	height: 440px;
+	width: 60px;
+	margin-top: 6px;
+	margin-left: 3px;
+}
+#pageBody #pageBodyLeft #pageBodyLeftMiddle {
+	height: 28px;
+	width: 60px;
+	margin-top: 10px;
+	margin-left: 3px;
+	overflow:hidden;
+	font-size: 12px;
+	line-height: 28px;
+	color: #F6F6F6;
+	text-align: center;
+}
+.pageBodyLeftFoot {
+	height: 20px;
+	width: 60px;
+	margin-top: 21px;
+	margin-left: 3px;
+	/*background-image: url(../images/usersys/logout1.png);*/
+	background-repeat: no-repeat;
+}
+
+.pageBodyLeftFootHover {
+	height: 20px;
+	width: 60px;
+	margin-top: 21px;
+	margin-left: 3px;
+	/*background-image: url(../images/usersys/logout2.png);*/
+	background-repeat: no-repeat;
+}
+
+
+
+#pageBody #pageBodyRight {
+	position: absolute;
+	left: 100px;
+	height: 500px;
+	width: 800px;
+}
+
+#pageFoot {
+	width:100%;
+	margin:0 auto;
+	/**background-color:#060;**/
+	position:fixed;
+	_position:absolute;
+	bottom:0;
+	height:42px;
+	background: url(../../images/usersys/bg/f_bg.png) ;
+	_margin-top: -0px;
+	border-top: 1px solid #3e194f;
+    /*_top:expression_r(eval_r(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));*/
+}
+.DeskIconImg {
+	height: 60px;
+	width: 60px;
+	display: block;
+	margin: 0px auto;
+}
+.DeskIconImg img{width: 100%; height: 100%;}
+.DeskIconText {
+	margin-top: 5px;
+}
+.DeskIconTableLeft {
+	/*background-image: url(../images/usersys/menu_bg.png);*/
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 20px;
+	width: 10px;
+}
+.DeskIconTableRight {
+	/*background-image: url(../images/usersys/menu_bg.png);*/
+	background-repeat: no-repeat;
+	background-position: -70px 0px;
+	height: 20px;
+	width: 10px;
+	overflow: hidden;
+}
+.DeskIconTableMiddle {
+	/*background-image: url(../images/usersys/menu_bg.png);
+	background-repeat: no-repeat;
+	background-position: -10px 0px;*/
+	border-radius: 5px;
+	font-size: 12px;
+	color: #FFF;
+	padding: 3px 5px;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+
+.IndexMenu {
+	margin-left: 40px;
+	list-style-position: outside;
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0px;
+	overflow:hidden;
+	float: left;
+}
+.IndexMenuGroupList {
+	width: 165px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	list-style-position: outside;
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0px;
+	overflow:hidden;
+}
+
+
+.IndexMenuNoWidth {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	list-style-position: outside;
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0px;
+	overflow:hidden;
+}
+
+
+.IndexIconBig {
+	padding: 7px 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	width: 100px;
+	cursor: pointer;
+	height: 108px;
+	text-align: center;
+}
+
+.IndexIconBigHover {
+	padding: 7px 10px;
+	box-sizing: border-box;
+	background: rgba(120,120,120,0.5);
+	background-repeat: no-repeat;
+	width: 100px;
+	cursor: pointer;
+	height: 108px;
+	text-align: center;
+}
+.IndexLeftIcon {
+	height: 60px;
+	width: 60px;
+	margin-top: 3px;
+}
+.IndexLeftIconImg {
+	height: 44px;
+	width: 44px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.IndexLeftIconHover {
+	height: 60px;
+	width: 60px;
+	margin-top: 3px;
+	/*background-image: url(../images/usersys/mouseover_bg2.png);*/
+}
+
+.dragclass1 {
+	position:absolute;
+	/**filter:Alpha(opacity=90);**/
+	/**z-index:99;***/
+}
+
+.dragclass {
+	position:absolute;
+	/**filter:Alpha(opacity=90);**/
+	/**z-index:99;***/
+}
+.WindowHead {
+	/*background: -webkit-linear-gradient(bottom,#575657, #747273); 
+ 	background: -o-linear-gradient(bottom,#575657, #747273); 
+ 	background: -moz-linear-gradient(bottom,#575657, #747273); 
+ 	background: linear-gradient(bottom,#575657, #747273); */
+	background: #575657;
+	text-align:right;
+	font-size:12px;
+	color:#3366FF;
+	cursor:default;
+	height: 38px;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #FFF;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 5px 5px 0px 0px;
+	box-sizing: border-box;
+}
+.WindowHeadLeft {
+	background-repeat: no-repeat;
+	float: left;
+	height: 30px;
+	width: 20%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.WindowHeadTitle {
+	background-repeat: repeat-x;
+	width: 60%;
+	float: left;
+	overflow: hidden;
+	font-size: 15px;
+	line-height: 38px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	cursor: move;
+	font-family: "宋体";
+}
+.WindowHeadAction {
+	background-repeat: repeat-x;
+	float: right;
+	height: 30px;
+	width: 20%;
+	overflow: hidden;
+	box-sizing: border-box;
+	cursor: hand;
+	margin-right: 10px;
+}
+.WindowHeadActionMin {
+	float: left;
+	height: 26px;
+	width: 34px;
+	background:#595959 url(../../images/usersys/icon/w_icon_h1.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-right: 5px;
+	overflow: hidden;
+	border-radius: 5px;
+	background-position: 10px;
+	cursor: hand;
+}
+.WindowHeadActionMin:hover{
+	background:#3c3a3a url(../../images/usersys/icon/w_icon_h1.png);
+	float: left;
+	height: 26px;
+	width: 34px;
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-right: 5px;
+	overflow: hidden;
+	border-radius: 5px;
+	background-position: 10px;
+	cursor: hand;
+}
+.WindowHeadActionMax {
+	float: left;
+	height: 26px;
+	width: 34px;
+	background:#595959 url(../../images/usersys/icon/w_icon_h2.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-left: 5px;
+	overflow: hidden;
+	cursor: hand;
+	border-radius: 5px;
+	background-position: 8px;
+}
+.WindowHeadActionMax:hover{
+	float: left;
+	height: 26px;
+	width: 34px;
+	background:#3c3a3a url(../../images/usersys/icon/w_icon_h2.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-left: 5px;
+	overflow: hidden;
+	cursor: hand;
+	border-radius: 5px;
+	background-position: 8px;
+}
+
+.WindowHeadActionClose {
+	float: left;
+	height: 26px;
+	width: 34px;
+	background:#595959 url(../../images/usersys/icon/w_icon_h3.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-left: 5px;
+	overflow: hidden;
+	cursor: hand;
+	background-position: 10px;
+	border-radius: 5px;
+}
+
+.WindowHeadActionClose:hover {
+	float: left;
+	height: 26px;
+	width: 34px;
+	background:#3c3a3a url(../../images/usersys/icon/w_icon_h3.png);
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-left: 5px;
+	overflow: hidden;
+	cursor: hand;
+	background-position: 10px;
+	border-radius: 5px;
+}
+
+.WindowBody{
+	height: 450px;
+	width: 100% ;
+	background-color: #F2F2F2;
+	box-sizing: border-box;
+}
+.WindowBody iframe{
+	width: 100%;
+}
+.ChatFriendTitle1 {
+	height: 25px;
+	width: 175px;
+	font-size: 12px;
+	line-height: 25px;
+	/*background-image: url(../images/usersys/chat/doc4.png);*/
+	background-repeat: no-repeat;
+	background-position: 0px 9px;
+	padding-left: 15px;
+}
+.ChatFriendHead {
+	height: 25px;
+	width: 174px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 16px;
+	cursor: default;
+}
+.ChatFriendHeadImg {
+	float: left;
+	height: 25px;
+	width: 25px;
+}
+.ChatFriendHeadName {
+	line-height: 25px;
+	float: left;
+	height: 25px;
+	width: 140px;
+	padding-left: 8px;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.ChatGroupHead {
+	height: 20px;
+	width: 174px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 16px;
+	cursor: default;
+}
+.ChatGroupHeadImg {
+	float: left;
+	height: 20px;
+	width: 26px;
+}
+.ChatGroupHeadName {
+	line-height: 17px;
+	float: left;
+	height: 20px;
+	width: 129px;
+	padding-left: 8px;
+	font-size: 12px;
+}
+.ChatActionSelect {
+	/*background-image: url(../images/usersys/chat/doc5.png);*/
+	background-repeat: no-repeat;
+	float: left;
+	height: 18px;
+	width: 75px;
+	line-height: 18px;
+	margin-top: 7px;
+	overflow: hidden;
+}
+
+.ChatActionFriend {
+	/*background-image: url(../images/usersys/chat/doc6.png);*/
+	background-repeat: no-repeat;
+	float: left;
+	height: 18px;
+	width: 75px;
+	line-height: 18px;
+	margin-top: 7px;
+	overflow: hidden;
+}
+
+.ChatActionMessage {
+	/*background-image: url(../images/usersys/chat/doc7.png);*/
+	background-repeat: no-repeat;
+	float: left;
+	height: 18px;
+	width: 75px;
+	line-height: 18px;
+	margin-top: 7px;
+	overflow: hidden;
+}
+
+.ChatGroupMessageBody {
+	background-color: #FFF;
+	height: 329px;
+	width: 578px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #2F7B97;
+	border-bottom-color: #CDE5F1;
+	border-left-color: #2F7B97;
+}
+.ChatGroupMessageBodyLeft {
+	float: left;
+	height: 329px;
+	width: 387px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CDE5F1;
+	overflow: hidden;
+}
+.ChatGroupMessageBodyRight {
+	float: left;
+	height: 329px;
+	width: 190px;
+	overflow: hidden;
+}
+
+
+.ChatGroupMessageButton {
+	height: 25px;
+	width: 578px;
+	background-color: #E3F1F7;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: #2F7B97;
+	border-bottom-color: #2F7B97;
+	border-left-color: #2F7B97;
+	cursor: default;
+}
+.ChatGroupMessageFoot {
+	height: 7px;
+	width: 580px;
+	overflow: hidden;
+}
+.ChatGroupMessageUser {
+	height: 25px;
+	width: 180px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.ChatGroupMessageUserList {
+	height: 190px;
+	width: 179px;
+	/*overflow-x:no;*/
+	overflow-y:auto;
+}
+
+.ChatActionMin {
+	float: right;
+	height: 40px;
+	overflow: hidden;
+	cursor: pointer;
+	margin-left: 5px;
+	width: 174px;
+	margin-top: 1px;
+	border-radius: 5px;
+	border: 1px solid #69616b;
+}
+
+.ChatActionMinOut {
+	background-color: rgba(40,40,40,40.6);
+	background-repeat: no-repeat;
+
+	height: 100%;
+	padding: 0px 15px;
+
+	box-sizing: border-box;
+}
+.ChatActionMinImg {
+	float: left;
+	margin-top: 8px;
+}
+.ChatActionMinText {
+	float: right;
+	height: 25px;
+	margin-top: 8px;
+	line-height: 25px;
+	color: #FFF;
+	overflow: hidden;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+
+.ChatActionMinHover {
+	background-color: rgba(80,80,80,0.8);
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 0px 15px;
+	box-sizing: border-box;
+}
+
+.ChatActionMinNew {
+	/*background-image: url(../images/usersys/action3.png);*/
+	background-repeat: no-repeat;
+	float: right;
+	height: 47px;
+	width: 112px;
+	overflow: hidden;
+}
+#MessageBoxMain{
+	padding: 5px;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	position: relative;
+}
+#MessageBoxMain .user_img{
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	top: -50px;
+	margin-left: -50px;
+	background: #f2f1f1;
+	border-radius: 50px;
+	
+	/*background: url(../../images/usersys/img/user_pic.jpg) no-repeat;*/
+    background-size: 100% 100%;
+    background-size: cover;
+}
+#MessageBoxMain .user_img img{
+	width: 100%;
+	height: 100%;
+}
+#MessageBoxMain #MessageBoxMainHead {
+	margin-top: 5px;
+	font-size: 16px;
+	color: #590269;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+#MessageBoxMain #MessageBoxMainMiddle {
+	margin-top: 5px;
+	color: #161516;
+	background: url(../../images/usersys/icon/user_icon.png) no-repeat 15px 2px;
+	padding-left: 55px;
+	border-bottom: 1px solid #ccc;
+	line-height: 35px;
+	height: 35px;
+}
+#MessageBoxMain #MessageBoxMainBottom {
+	margin-top: 5px;
+	color: #161516;
+	background: url(../../images/usersys/icon/msg_icon.png) no-repeat 13px 2px;
+	padding-left: 55px;
+	line-height: 35px;
+	height: 35px;
+}
+#MessageBoxMain #MessageBoxMainWeixin {
+	margin-top: 5px;
+	color: #161516;
+	line-height: 35px;
+	height: 240px;
+	text-align:center;
+	font-size:14px;
+}
+#MessageBoxMain #MessageBoxMainFooter{
+	margin-top: 5px;
+	/*background: url(../../images/usersys/icon/more_icon.png) no-repeat 15px 2px;*/
+	padding-left: 55px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #ccc;
+}
+
+#MessageBoxMainBottom a,#MessageBoxMainMiddle a,#MessageBoxMainFooter a{color: #161516; font-size: 15px; font-weight: normal;}
+
+
+.chat_key {
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+	background-color: #FFF;
+	height: 20px;
+	width: 195px;
+	border: 0px solid #FFF;
+	margin: 0px;
+}
+.chat_search {
+	height: 20px;
+	width: 15px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+#LoginPageBlank {
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 80px;
+}
+#LoginPageTop {
+	height: 40px;
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 30px;
+	overflow: hidden;
+}
+#LoginPageTop #LoginTopBlank {
+	float: left;
+	height: 34px;
+	width: 250px;
+}
+
+#LoginPageTop #LoginTopTitle {
+	float: left;
+	height: 34px;
+	width: 434px;
+	overflow: hidden;
+}
+#LoginPageTop #LoginTopLink {
+	line-height: 34px;
+	text-align: right;
+	float: left;
+	height: 34px;
+	width: 376px;
+}
+
+
+#LoginPageBody {
+	height: 443px;
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+#LoginPageBody #LoginPageBodyLeft {
+	/*background-image: url(../images/login/left.jpg);*/
+	background-repeat: no-repeat;
+	float: left;
+	height: 443px;
+	width: 683px;
+}
+#LoginPageBody #LoginPageBodyMiddle {
+	/*background-image: url(../images/login/middle.jpg);*/
+	background-repeat: no-repeat;
+	float: left;
+	height: 443px;
+	width: 376px;
+}
+#LoginPageBody #LoginPageBodyRight {
+	/*background-image: url(../images/login/right.jpg);*/
+	background-repeat: no-repeat;
+	float: left;
+	height: 443px;
+	width: 221px;
+}
+#LoginPageBottom {
+	/*background-image: url(../images/website/bottom_bg.jpg);*/
+	background-repeat: repeat-x;
+	height: 70px;
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	margin-top: 2px;
+
+	font-size: 12px;
+	line-height: 22px;
+	color: #7F7F7F;
+	text-align: center;
+}
+.login_input_long {
+	/*background-image: url(../images/login/input.jpg);*/
+	height: 39px;
+	width: 325px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	line-height: 39px;
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #494949;
+}
+
+.login_input_short {
+	/*background-image: url(../images/login/input_short.jpg);*/
+	height: 39px;
+	width: 135px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	line-height: 39px;
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #555;
+}
+.login_btn_submit {
+	/*background-image: url(../images/login/submit.jpg);*/
+	background-repeat: no-repeat;
+	height: 43px;
+	width: 118px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.login_btn_next {
+	/*background-image: url(../images/login/next.jpg);*/
+	background-repeat: no-repeat;
+	height: 43px;
+	width: 118px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.login_btn_cancel {
+	/*background-image: url(../images/login/cancel.jpg);*/
+	background-repeat: no-repeat;
+	height: 43px;
+	width: 118px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+/*我的教务*/
+#ChatMain {
+	background: #f7f6f9;
+	width: 454px;
+	z-index: 52;
+	border-radius: 5px;
+	right: 10px;
+	bottom: 55px;
+	box-shadow: 0 5px 10px #000;
+	overflow:hidden;
+ }
+#ChatMain .infoHeader{box-shadow: 0px -2px 5px #000; border-radius: 5px 5px 0px 0px; text-indent: 1em; width: 100%; height: 42px; line-height: 42px; color: #fff; font-size: 18px; background: #6a696c;}
+.infoHeader .infoHeaderClose {
+	float: right;
+	height: 26px;
+	width: 34px;
+	background:#595959 url(../../images/usersys/icon/w_icon_h3.png) no-repeat;
+	margin-top: 6px;
+	margin-right: 5px;
+	overflow: hidden;
+	cursor: hand;
+	background-position: 10px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.infoHeader .infoHeaderClose:hover{
+	background: #494949 url(../../images/usersys/icon/w_icon_h3.png) no-repeat;
+	float: right;
+	height: 26px;
+	width: 34px;
+	margin-top: 6px;
+	margin-right: 5px;
+	overflow: hidden;
+	cursor: hand;
+	background-position: 10px;
+	border-radius: 5px;
+	display: inline-block;
+}
+/*个人信息*/
+.infoMain{ padding: 12px; box-sizing: border-box;}
+.infoMain .left-user-pic{width: 101px; height: 120px; float: left;}
+.infoMain .right-info-box{width: 300px; float: right;}
+.right-info-box .name{font-size: 20px; color: #000; margin: 0px;}
+.right-info-box .infoTb{border: 1px solid #cdcdcd; padding: 0px 2px; box-sizing: border-box; margin-top: 5px; width: 100%;} 
+.right-info-box .infoTb td {font-size: 14px; text-align: left; padding: 0px 5px; box-sizing: border-box; border-bottom: 1px solid #cdcdcd;}
+.right-info-box .infoTb th {font-size: 14px; font-weight: normal; color: #a19e9e; width: 50px; text-align: left; padding: 0px 10px; box-sizing: border-box; border-bottom: 1px solid #cdcdcd;}
+.right-info-box .contactP{background:  no-repeat 0; font-size: 14px; margin: 15px 0 0; padding-left: 20px; box-sizing: border-box;}
+.right-info-box .safeSetP{background:  no-repeat 0; font-size: 14px; margin: 15px 0 0; padding-left: 20px; box-sizing: border-box;}
+.right-info-box .infoTb .th_2{width: 80px;}
+.right-info-box .infoTb .edit-icon{background:  no-repeat right; width: 20px; height: 17px; border: none; cursor: pointer;}
+.right-info-box .infoTb2{border: 1px solid #cdcdcd; padding: 5px 2px; box-sizing: border-box; margin-top: 5px; width: 100%;} 
+.right-info-box .infoTb2 th{width: 120px; text-align: right; font-size: 14px; font-weight: normal; color: #a19e9e; padding: 5px 10px; box-sizing: border-box; }
+.right-info-box .infoTb2 .edit-btn{background: #ff680d; border: none; font-size: 15px; color: #fff; padding: 5px 20px; box-sizing: border-box; border-radius: 3px; cursor: pointer;}
+.left-user-pic .update-btn{background: #125dc2; border: none; font-size: 14px; color: #fff; padding: 5px 10px; box-sizing: border-box; border-radius: 3px; cursor: pointer; width: 100%; margin-top: 6px;}
+.right-info-box .infoTb2 .edit-icon{background:  no-repeat; display: inline-block; width: 14px; height: 15px; position: relative; top: 3px; right: 3px;}
+.left-user-pic .update-btn-icon{background: url(../../images/usersys/icon/add_icon.png) no-repeat; display: inline-block; width: 14px; height: 15px; position: relative; top: 5px; right: 3px;}
+.right-info-box input{border-radius: 2px; height: 25px; border: 1px solid #adacac; line-height: 25px; margin: 5px 0px; text-indent: 5px;}
+.btm-triangle-icon{background:  no-repeat; width: 32px; height: 16px; display: inline-block; position: absolute; right: 60px; bottom: -10px;}
+.MessageBoxMainFooterInput{padding-left: 5px; height: 26px; margin-top: 5px; width: 180px; background: #f9f9f9; color: #000;  outline: none;}
+.MessageBoxMainFooterInput:focus{background: burlywood;}
+.MessageBoxMainFooterBtn{width: 26px; height: 26px; background:  no-repeat 1px 1px; border: 1px solid #ccc; position: relative; top: 6px;[;top:-3px;] left: 0px; outline: none; cursor: pointer; border-radius: 2px;}
+.btn{display: inline-block; height: 23px; line-height: 23px; border-radius: 5px; border: 1px solid #ccc; font-size: 12px !important; color: #000; background-color: #fff; padding: 0px 5px; cursor: pointer;min-width:40px;text-align:center;}
+.btn:hover{background-color: #f0f0f0}
+.btn-green{background-color: #06b206; color: #fff !important; border: 1px solid #06b206;}
+.btn-green:hover{background-color: #0abd0a; color: #fff !important; border: 1px solid #0abd0a;}
+#roleSelect{
+	width:100px; height:27px;background-color:#F8F8F3; font-weight:bold; color:#003399; 
+}
+iframe{border:1px solid #ccc; box-sizing: border-box;}
